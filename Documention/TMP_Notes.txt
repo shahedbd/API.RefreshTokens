@@ -1,0 +1,44 @@
+12:33 AM 4/9/2023
+
+API.RefreshTokens
+
+
+JWT Authentication With Refresh Tokens in .Net Core 7.0 | ASP.NET Core
+
+Summary for Video:
+- Update Model
+- Create View Model
+- Add Migration 
+- Create Service 
+- Test with postman
+
+{
+    "username":"shahed",
+    "password":"Shahed@123"
+}
+
+
+{
+  "statusCode": 1,
+  "statusMessage": "Success",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InNoYWhlZCIsImp0aSI6IjY2ZjliNzI0LTYyY2YtNDg3Zi1hODdhLTJhYmNmNmVhNjNjOCIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTY4MDk4MTg1OSwiZXhwIjoxNjgwOTgxOTE5LCJpYXQiOjE2ODA5ODE4NTksImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjUwMDEiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIn0.KemIoy-M8lkTma3cQ88LisWZ5Gk1DXJz6Otp128-B7U",
+  "refreshToken": "ISKRsC3Qzi56dGWu8nlAeQYFyoDaRA+8XzBknIOMJryLbmEYPs9PpFgYzLVUFjiqGW/oL7Dbi7rB78JM1hJyrw=="
+}
+
+
+
+Previous: JWT Authentication and Role Based Authorization in .Net Core 7.0
+
+Refresh Tokens
+Source: https://github.com/shahedbd/API.RefreshTokens
+
+
+
+{
+  "statusCode": 1,
+  "statusMessage": "Success",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6InNoYWhlZCIsImp0aSI6ImNhNDM3MDJhLTNmMzctNDkwZS05NmQ3LTZiNjUxNmJkZjcxZCIsInJvbGUiOiJBZG1pbiIsIm5iZiI6MTY4MDk3MTQ3MywiZXhwIjoxNjgwOTczMjczLCJpYXQiOjE2ODA5NzE0NzMsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjUwMDEiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIn0.CHSAih8lp6TMoixx5b110fEEmeMWlozkbmMkOQxtSas",
+  "refreshToken": "aDeOIeoy4pKr4OLda3bbjPgDHdX80YknZfhipo6SyyAS8FR0JP0qXPNN9y04V7JQcLwT/j8mm7wfsCF7f+YTVA=="
+}
+
+
